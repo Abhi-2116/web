@@ -1,192 +1,62 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Table</title>
-</head>
-<body>
-    <table border="2" style="border: cyan;">
-           <tr>
-            <th>QQQQQ</th>
-            <th>WWWWW</th>
-            <th colspan="3">EEEEE</th>
-           </tr>
-           <tr>
-            <td rowspan="3">RRRRR</td>
-            <td rowspan="3">TTTTT</td>
-            <td>YYYYYY</td>
-            <td>UUUUU</td>
-           </tr>
-
-           <tr>
-            <!-- <td>IIIII</td> -->
-            <!-- <td>OOOO</td> -->
-            <td>PPPP</td>
-            <td>AAAAA</td>
-           </tr>
-
-           <tr>
-            <!-- <td>SSSS
-            </td> -->
-            <!-- <td>FFFF</td> -->
-            <td>GGGG</td>
-            <td>HHHHH</td>
-           </tr>
-
-           <tr>
-            <td>JJJj</td>
-            <td>KKKK</td>
-            <td colspan="2">LLLLl</td>
-            <!-- <td>ZZZZ</td> -->
-           </tr>
-
-           <tr>
-            <td>XXXXXX</td>
-            <td>CCCC</td>
-            <td colspan="2">VVVVV</td>
-            <!-- <td>BBBBB</td> -->
-           </tr>
-</table>
-       <br>
-       <br>
-       <br>
-
-    <!-- <table border="10" style="border: green;" > 
-        <tr>
-            <th colspan="4" ;" style="background: red;">Editable Table</th>
-
-        </tr>
-        <tr>
-            <th style="background: yellow;">name</th>
-            <th style="background: yellow;">cost</th>
-            <th style="background: yellow;">profit</th>
-            <th style="background: yellow;">fun</th>
-
-        </tr>
-        <td>car</td>
-        <td>100</td>
-        <td>200</td>
-        <td>0</td>
-        <tr>
-            <td>bike</td>
-            <td>330</td>
-            <td>240</td>
-            <td>1</td>
-
-        </tr>
-        <tr>
-            <td>plane</td>
-            <td>430</td>
-            <td>540</td>
-            <td>3</td>
-
-        </tr>
-        <tr>
-            <td>yacht</td>
-            <td>100</td>
-            <td>200</td>
-            <td>1</td>
-
-        </tr>
-        <tr>
-            <td>segway</td>
-            <td>330</td>
-            <td>240</td>
-            <td>1</td>
-
-        </tr>
-        <tr>
-            <th>total</th>
-            <td>1290</td>
-            <td>1420</td>
-            <td>5</td>
-           
-        </table>
-         -->
-         
-        <table border="2">
-            <tr>
-                <th rowspan="2"></th>
-                <th colspan="2">Average</th>
-                
-                <th rowspan="2">Red eyes</th>
-                <!-- <td>fffff</td> -->
-
-             </tr>
-            <tr>
-               <!-- <th>ffffff</th> -->
-                <th>Height</th>
-                <th>Weight</th>
-
-            </tr>
-            <tr>
-                <th>Males</th>
-                <td>1.9</td>
-                <td>0.003</td>
-                <td >40%</td>
-
-            </tr>
-            <tr><th>Females</th>
-                <td>1.7</td>
-                <td>0.002</td>
-                <td>43%</td>
-
-            </tr>
-        </table>
-        <table border="2" style="border: gold;">
-            <tr>
-                <th rowspan="3">Day</th>
-                <th colspan="4" style="font-size: larger;">Seminar</th>
-                 </tr>
-            <tr>
-                <!-- <th>ffff</th> -->
-                <th colspan="2">schedule</th>
-                <th colspan="2" rowspan="2">Topic</th>
-
-            </tr>
-            <tr>
-                <!-- <th>rrrr</th> -->
-                <th> Begin</th>
-                <th>End</th>
-                <!-- <th>rrrr</th> -->
-            </tr>
-            <tr>
-                <td rowspan="2">Monday</td>
-                <td rowspan="2" style="background: yellow;">8:00 a.m.</td>
-                <td rowspan="2" style="background: purple;">5:00 p.m.</td>
-                <td>introduction to XML</td>
-            </tr>
-            <tr>
-                <!-- <td>gggg</td> -->
-                <!-- <td>cccc</td> -->
-                <!-- <td>ffff</td> -->
-                <td>Vlidity DTD and relax NG</td>
-            </tr>
-            <tr>
-                <td rowspan="3">Tuesday</td>
-                <td style="background: yellow;">8:00a.m.</td>
-                <td style="background: yellow;">11:00a.m.</td>
-                <td rowspan="2">X path</td>
-            </tr>
-            <tr>
-                <!-- <td>ffff</td> -->
-                <td style="background: yellow;">11:00 a.m.</td>
-                <td style="background: green;">2:00 p.m.</td>
-
-            </tr>
-            <tr>
-                <!-- <td>tttt</td> -->
-                <td style="background: green;">2:00 p.m.</td>
-                <td style="background: purple;">5:00 p.m.</td>
-                <td>XSL Transformations</td>
-            </tr>
-            <tr>
-                <td>Wednesday</td>
-                <td style="background: yellow;">8:00 a.m.</td>
-                <td style="background: green;">12;00 p.m.</td>
-                <td>XSL Formatting Objects</td>
-            </tr>
-        </table>
-</body>
+  </head>
+  <body>
+    <table border="2" >
+      <tr>
+        <th rowspan="3">Day</th>
+        <th colspan="4" style="font-size: larger">Seminar</th>
+      </tr>
+      <tr>
+        <!-- <th>ffff</th> -->
+        <th colspan="2">schedule</th>
+        <th colspan="2" rowspan="2">Topic</th>
+      </tr>
+      <tr>
+        <!-- <th>rrrr</th> -->
+        <th>Begin</th>
+        <th>End</th>
+        <!-- <th>rrrr</th> -->
+      </tr>
+      <tr>
+        <td rowspan="2">Monday</td>
+        <td rowspan="2" style="background: yellow">8:00 a.m.</td>
+        <td rowspan="2" style="background: purple">5:00 p.m.</td>
+        <td>introduction to XML</td>
+      </tr>
+      <tr>
+        <!-- <td>gggg</td> -->
+        <!-- <td>cccc</td> -->
+        <!-- <td>ffff</td> -->
+        <td>Vlidity DTD and relax NG</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Tuesday</td>
+        <td style="background: yellow">8:00a.m.</td>
+        <td style="background: yellow">11:00a.m.</td>
+        <td rowspan="2">X path</td>
+      </tr>
+      <tr>
+        <!-- <td>ffff</td> -->
+        <td style="background: yellow">11:00 a.m.</td>
+        <td style="background: green">2:00 p.m.</td>
+      </tr>
+      <tr>
+        <!-- <td>tttt</td> -->
+        <td style="background: green">2:00 p.m.</td>
+        <td style="background: purple">5:00 p.m.</td>
+        <td>XSL Transformations</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td style="background: yellow">8:00 a.m.</td>
+        <td style="background: green">12;00 p.m.</td>
+        <td>XSL Formatting Objects</td>
+      </tr>
+    </table>
+  </body>
 </html>
