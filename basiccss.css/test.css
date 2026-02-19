@@ -1,0 +1,28 @@
+h1{
+    background: red;
+}
+.abc{
+    background: blue;
+}
+.xyz{
+    background: yellow; 
+}
+.xyz:hover{
+    background: orchid;
+}
+.mno{
+    background-color: red;
+}
+.mno:hover{
+    background:olive;
+}
+.ram{
+    border: 3px solid black
+     ;
+}
+.iop{
+    background: gray;
+}
+.zxc{
+    background: green;
+}
