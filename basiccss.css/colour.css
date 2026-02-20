@@ -1,0 +1,22 @@
+.re{
+    background: pink  ;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    text-decoration: underline;
+    background-color: rgb(125, 43, 43);
+    
+
+}
+.colo{
+    background-color: rgb(152, 95, 152);
+    width: 200px;
+    height:auto ;
+    font-size: x-large;
+    justify-content: center;
+    text-align: center;
+    justify-items:center;
+    text-decoration: ;
+    position: absolute;
+}
+
