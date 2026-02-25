@@ -1,35 +1,10 @@
-/* .unit{
-    width: 900px;
-    height: 500px;
-    width: 200vw ;
-    height: 100vh; */
+*{
+    margin: 0;
+    padding: 0;
 
-/* /* .img{
-    width: 900px;
-    height: 50vh;
+
 }
- .img{
-    width: 60 %;
-    height: 70%;
- } */
-
-
- .table{
-    border: 3px solid rgb(20, 1, 1);
- }
-
-
-.th{
-    border: 1px solid rgb(141, 39, 8);
-    background: rgb(87, 87, 219);
-    font-style: initial;
-    font-size: x-large;
-    font-weight: 200;
-}
-.td{
-    border: 1px solid rgb(244, 18, 18);
-    background: rgb(117, 217, 117);
-    font-style: italic;
-    font-size: larger;
-    font-weight: 100;
+.xyz{
+    background: yellow;
+    margin: 100px;
 }

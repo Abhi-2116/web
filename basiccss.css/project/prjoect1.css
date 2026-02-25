@@ -1,0 +1,21 @@
+.body{
+    background: rgb(126, 163, 215);
+    font-style: italic;
+}
+h1{
+    font-style: italic;
+    /* background: rgb(164, 239, 164); */
+    text-align: center;
+
+}
+.header{
+    background: rgb(232, 75, 75);
+    text-decoration: underline;
+}
+.p{
+   
+    font-size: large;
+    font-style: normal;
+}pre{
+    border-style: double;
+}
