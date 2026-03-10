@@ -1,0 +1,29 @@
+.body{
+    background: rgb(219, 230, 235);
+    font-family: "Bebas Neue", sans-serif;
+  
+
+}
+.jjj{
+    border: 3px solid rgb(10, 231, 10);
+}
+.rrrr{
+    border: 3px solid rgba(230, 153, 10, 0.773);
+}
+.ooo{
+   border: 3px solid rgba(236, 12, 53, 0.773); 
+}
+.div1{
+    border: 5px solid rgb(225, 18, 132);
+}
+
+.div2{
+    border: 5px solid rgb(15, 154, 205);
+}
+.div3{
+    border: 5px solid rgb(196, 138, 13);
+}
+.img{
+    border: 3px solid rgb(18, 2, 2);
+    
+}
