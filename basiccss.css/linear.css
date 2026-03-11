@@ -1,0 +1,79 @@
+body{
+margin: 0;
+padding: 0;
+}
+.con{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+
+    gap: 10px;
+}
+.card{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    grid-row: 2px;
+    background: rgb(239, 234, 234);
+    
+}
+#ss{
+background-image: linear-gradient(to right top, rgb(69, 3, 3), rgb(228, 165, 142),rgb(118, 201, 118) );
+}
+#uu{
+    background-image: linear-gradient(to left top, rgb(0, 0, 0), rgb(228, 165, 142),rgb(118, 201, 118) );
+}
+#rr{
+    background-image: linear-gradient(to top, rgb(39, 209, 79), rgb(228, 165, 142),rgb(118, 201, 118) );
+}
+#cc{
+    background-image: linear-gradient(to top, rgb(55, 121, 220), rgb(224, 199, 189),rgb(42, 132, 210) );
+}
+#aa{
+    background-image: linear-gradient(to bottom left, rgb(82, 189, 235), rgb(234, 79, 182),rgb(182, 219, 244) );
+}
+#jj{
+    background-image: linear-gradient(to bottom right, rgb(205, 215, 126), rgb(163, 229, 168),rgb(232, 145, 145) );
+}
+#ii{
+    background-image: url(../images/3.png);
+    background-repeat: round;
+   
+    
+}
+
+.shyam{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.ram{
+      width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    grid-row: 2px;
+}
+#xx{
+background-image: radial-gradient( rgb(69, 3, 3), rgb(228, 165, 142),rgb(118, 201, 118) );
+}
+#yy{
+background-image: radial-gradient( circle at center in hsl longer hue, red,blue );
+}
+#zz{
+background-image: radial-gradient( circle,pink 10%, yellow 20%, green 30% );
+}
+#tt{
+background-image: radial-gradient(circle, blue, rgb(161, 227, 161),pink, yellow );
+}
+#ee{
+background-image: radial-gradient( ellipse, red, blue );
+}
+
+
+
+
+   
+
+
+
