@@ -8,3 +8,32 @@
     
   
 }
+.lorem{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5px;
+
+}
+#card1{
+    overflow: visible;
+}
+#card2{
+    overflow: hidden;
+}
+#card3{
+    overflow: scroll;
+}
+#card4{
+    overflow-y: scroll;
+}
+#card5{
+    overflow-x: scroll;
+    white-space: nowrap;
+   
+}
+#card6{
+  overflow: scroll;
+}

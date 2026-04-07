@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.con{
+    background-color: rgb(145, 145, 148);
+}
+
+.card{
+     width: 200px;
+     height: 200px;
+     border: 2px solid black;
+     display: inline-block;
+     font-size: xx-large;
+     font-weight: bold;
+     text-align: center;
+     box-sizing: border-box;
+     margin: 10px;
+     color: rgb(173, 110, 232);
+     text-shadow: 5px 5px rgb(198, 86, 86);
+     background-color: rgb(206, 241, 230);
+     border-radius: 100px;
+
+     
+     
+}
+#aa{
+    background-image: conic-gradient(pink, red,green,blue);
+}
+#bb{
+    background-image: conic-gradient(blue 50%,yellow 20%,grey 10%,pink 50%);
+}
+#cc{
+background-image: conic-gradient(purple,grey,black,orange,green,red,blue);
+}
+#dd{
+    background-image: conic-gradient(red 30deg,black 30deg,orange 50deg);
+}
+#ee{
+     background-image: conic-gradient(pink, red,green,blue);
+}
+.con2{
+  background-color: rgb(196, 213, 227);
+}
+
+
+.xyz{
+     width: 200px;
+     height: 200px;
+     border: 2px solid black;
+     display: inline-flex;
+     font-size: xx-large;
+     font-weight: bold;
+     text-align: center;
+     box-sizing: border-box;
+     margin: 10px;
+     color: rgb(173, 110, 232);
+     text-shadow: 5px 5px rgb(198, 86, 86);
+     background-color: rgb(206, 241, 230);
+     align-items: center;
+     justify-content: center;
+     font-weight: 500;
+}
+#ff{
+    text-shadow: 10px 10px red;
+}
+#gg{
+    text-shadow: 0px 0px 4px;
+}
+#hh{
+    text-shadow: 2px -5px blue;
+}
+#ii{
+    text-shadow: -4px -5px green;
+}
+
+.con3{
+    /* background-color: rgb(239, 192, 215);
+} */
+}
+
+.abc{
+     width: 200px;
+     height: 200px;
+     border: 2px solid black;
+     display: inline-flex;
+     font-size: xx-large;
+     font-weight: bold;
+     text-align: center;
+     box-sizing: border-box;
+     margin: 10px;
+     color: rgb(173, 110, 232);
+     text-shadow: 5px 5px rgb(198, 86, 86);
+     /* background-color: rgb(192, 239, 224); */
+     align-items: center;
+     justify-content: center;
+     font-weight: 500;
+    }
+#ll{
+    box-shadow: 5px 5px;
+}
+#mm{
+    box-shadow: 8px 8px 10px;
+}
+#nn{
+    box-shadow: 5px 5px 5px 10px;
+}
+#oo{
+    box-shadow: 5px 5px 5px 10px red inset, -5px -5px 5px 10px blue inset ;
+}

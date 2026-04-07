@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.cont{
+    border: 2px solid black;
+    display: inline-flex;
+    background-color: rgb(218, 233, 233);
+    margin: 10px;
+    padding: 10px;
+}
+.p1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+}
+.p2{
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid green;
+}
+.p3{
+    margin-top: 30px;
+    min-width: 200px;
+    min-height: 200px;
+    border: 2px solid blue;
+}
