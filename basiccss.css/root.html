@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Root</title>
+    <!-- isme jo colour likh krke set krenge toh vo hr jgh same rhega -->
+
+    <style>
+        :root {
+            --bgcolour: green;
+            --text-colour: rgb(53, 15, 242);
+            --font-size: 40px;
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .cont {
+            background-color: var(--bgcolour);
+            color: var(--text-colour);
+            font-size: var(--font-size);
+
+        }
+
+        /* function */
+
+        :root {
+            --containerwidth: 100%;
+            --containerheight: 100vh;
+            --bg: rgb(55, 237, 55);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: var(--containerwidth);
+            height: var(--containerheight);
+            padding: 15px;
+            background-color: var(--bg);
+        }
+
+        .box2 {
+            background-color: blue;
+            border: 2px solid rebeccapurple;
+            margin: 15px 10px;
+            display: inline-block;
+            padding: 21px;
+        }
+
+        #box1 {
+            height: max(100px, 4rem);
+        }
+
+        #box2 {
+            width: min(100px, 4rem);
+        }
+
+        #box3 {
+            background-color: rgb(20, 225, 157);
+        }
+
+        /* TRANSITIONS */
+       *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+       }
+       .containers{
+        width: 700px;
+        height: 600px;
+        background-color: gray;
+       }
+       .boxx{
+        background-color: bisque;
+        height: 150px;
+        width: 150px;
+        transition: 5s all ease;
+        border-radius: 100px;
+       }
+
+       .boxx:hover{
+        background-color: red;
+        transform: scale(2) translateX(500px) rotate(360deg);
+       }
+
+       /* Animation */
+
+       *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+       .contaner{
+        display: flex;
+        height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: black;
+       }
+
+       .boox{
+        height: 4em;
+        width: 7em;
+        background: rgb(212, 96, 18);
+        border-top: 3px solid orange;
+        border-radius: 0 0 0.2em 0.2em;
+        animation: move 2s linear infinite;
+       }
+
+       @keyframes move{
+        0%,
+        7%{
+            transform: rotate(0);
+        }
+        15%{
+            transform: rotate((-15deg));
+            border-top-color: red;
+        }
+        25%{
+            transform: rotate((10deg));
+            border-top-color: yellowgreen;
+        }
+        35%{
+            transform: rotate(-10deg);
+            border-top-color: green;
+        }
+        45%{
+            transform: rotate(6deg);
+            border-top-color: blue;
+        }
+        55%{
+            transform: rotate(-4deg);
+            border-top-color: white;
+        }
+        55%,
+        100%{
+            transform: rotate(0);
+        }
+       }
+
+       .boox:hover{
+        background-color: rgb(216, 19, 19);
+        transition: 0.5s;
+       }
+
+    
+
+    </style>
+</head>
+
+<body>
+    <div class="cont">
+        <div class="box1">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+
+    </div>
+
+
+    <!-- FUNCTION -->
+
+    <Div class="container">
+        <div class="box2" id="box1"> box1</div>
+        <div class="box2" id="box2"> box2</div>
+        <div class="box2" id="box3"> box3</div>
+        <div class="box2" id="box4"> box4</div>
+        <div class="box2" id="box5"> box5</div>
+        <div class="box2" id="box6"> box6</div>
+        <div class="box2" id="box7"> box7</div>
+
+    </Div>
+
+    <!-- transitions -->
+
+    <Div class="containers">
+        <div class="boxx"></div>
+         <div class="boxx"></div>
+         <div class="boxx"></div>
+         <div class="boxx"></div>
+        
+    </Div>
+
+    
+
+    <!-- Animation -->
+
+<div class="contaner">
+    <div class="boox"></div>
+
+</div>
+
+
+
+</body>
+
+</html>

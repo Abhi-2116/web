@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Area</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        height: 700px;
+        width: 500px;
+        background-color: rgb(149, 220, 44);
+        display: grid;
+        gap: 10px;
+        grid-template: repeat(3,1fr)/repeat(4,1fr);
+    }
+    .box{
+        background-color: rgb(32, 144, 219);
+        border: 4px solid black;
+        border-radius: 0 1.5rem;
+    }
+    #box1{
+        grid-area: 1/2;
+        background-color: rgb(224, 45, 224);
+    }
+    #box5{
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        grid-area: 2/2/3/4;
+        background-color: rgb(63, 240, 160);
+    }
+
+    /* grid tempelate */
+
+    .container1{
+        height: 400px;
+        width: 500px;
+        background-color: rgb(234, 167, 42);
+        display: grid;
+        gap: 10px;
+        grid-template: repeat(3,1fr) / repeat(4,1fr);
+        grid-template-areas: 
+        "b1 b2 b2 b3"
+        "b1 b4 b5 b6"
+        "b1 b7 b8 b6";
+    }
+
+    #box11{
+        grid-area: b1;
+        background-color: rgb(235, 214, 214);
+    }
+
+    #box12{
+        grid-area: b2;
+        background-color: rgb(235, 214, 214);
+    }
+
+    #box13{
+        grid-area: b3;
+        background-color: rgb(235, 214, 214);
+    }
+
+    #box14{
+        grid-area: b4;
+        background-color: rgb(235, 214, 214);
+    }
+
+    #box15{
+        grid-area: b5;
+        background-color: rgb(235, 214, 214);
+    }
+
+    #box16{
+        grid-area: b6;
+        background-color: rgb(235, 214, 214);
+    }
+
+    #box17{
+        grid-area: b7;
+        background-color: rgb(235, 214, 214);
+    }
+
+    #box18{
+        grid-area: b8;
+        background-color: rgb(235, 214, 214);
+    }
+
+    /* grid auto row */
+
+    .container3{
+        height: 700px;
+        width: 500px;
+        background-color: rgb(139, 219, 20);
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(4,1fr);
+        grid-auto-rows: minmax(40px,1fr);
+    }
+    .boxx{
+        background-color: orange;
+        border: 2px solid black;
+        border-radius: 0 1.5rem;
+    }
+
+    
+
+
+    
+</style>
+<body>
+
+    <div class="container">
+        <div class="box" id="box1"> box 1</div>
+        <div class="box" id="box2"> box 2</div>
+        <div class="box" id="box3"> box 3</div>
+        <div class="box" id="box4"> box 4</div>
+        <div class="box" id="box5"> box 5</div>
+        <div class="box" id="box6"> box 6</div>
+        <div class="box" id="box7"> box 7</div>
+        <div class="box" id="box8"> box 8</div>
+        <div class="box" id="box9"> box 9</div>
+        <div class="box" id="box10"> box 10</div>
+    </div>
+
+    <!-- grid tempelate -->
+
+    <br><br><br><br><br>
+
+    <div class="container1">
+        <div class="boxs" id="box11"> box 11</div>
+        <div class="boxs" id="box12"> box 12</div>
+        <div class="boxs" id="box13"> box 13</div>
+        <div class="boxs" id="box14"> box 14</div>
+        <div class="boxs" id="box15"> box 15</div>
+        <div class="boxs" id="box16"> box 16</div>
+        <div class="boxs" id="box17"> box 17</div>
+        <div class="boxs" id="box18"> box 18</div>
+
+    </div>
+<br><br><br><br><br><br><br>
+    <!-- grid auto rows -->
+
+    <div class="container3">
+        <div class="boxx" id="box21"> boss Abhi</div>
+        <div class="boxx" id="box22">boss Abhi</div>
+        <div class="boxx" id="box23">boss Abhi</div>
+        <div class="boxx" id="box24">boss Abhi</div>
+        <div class="boxx" id="box25">boss Abhi</div>
+        <div class="boxx" id="box26">boss Abhi</div>
+        <div class="boxx" id="box27">boss Abhi</div>
+        <div class="boxx" id="box28">boss Abhi</div>
+        <div class="boxx" id="box29">boss Abhi</div>
+        <div class="boxx" id="box30">boss Abhi</div>
+        <div class="boxx" id="box31">boss Abhi</div>
+        <div class="boxx" id="box32">boss Abhi</div>
+        <div class="boxx" id="box33">boss Abhi</div>
+        <div class="boxx" id="box33">boss Abhi</div>
+        <div class="boxx" id="box34">boss Abhi</div>
+        <div class="boxx" id="box35">boss Abhi</div>
+        <div class="boxx" id="box36">boss Abhi</div>
+        <div class="boxx" id="box37">boss Abhi</div>
+        <div class="boxx" id="box38">boss Abhi</div>
+        <div class="boxx" id="box39">boss Abhi</div>
+        <div class="boxx" id="box40">boss Abhi</div>
+        <div class="boxx" id="box41">boss Abhi</div>
+        <div class="boxx" id="box42">boss Abhi</div>
+        <div class="boxx" id="box43">boss Abhi</div>
+        <div class="boxx" id="box44">boss Abhi</div>
+        <div class="boxx" id="box45">boss Abhi</div>
+        <div class="boxx" id="box46">boss Abhi</div>
+        <div class="boxx" id="box47">boss Abhi</div>
+        <div class="boxx" id="box48">boss Abhi</div>
+        <div class="boxx" id="box49" >boss Abhi</div>
+        <div class="boxx" id="box50">boss Abhi</div>
+        
+
+    </div>
+    
+</body>
+</html>

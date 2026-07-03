@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-box {
+  background-image: url(../images/restaurant\ background\ image.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  
+ 
+}
+
+/* Navbar */
+
+.navbar {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+   position: fixed;
+}
+
+.navbar-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-link {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.navbar-link li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Underline Animation */
+
+.navbar-link li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background-color: brown;
+  transition: width 0.3s ease;
+}
+
+.navbar-link li a:hover {
+  color: brown;
+}
+
+.navbar-link li a:hover::after {
+  width: 100%;
+}
+
+/* home */
+.home {
+  scroll-margin-top: 130px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  
+}
+.para {
+  color: white;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 25px;
+  text-align: left;
+  margin-left: 10px;
+  
+}
+.btn {
+  border-radius: 100px;
+  color: black;
+  border: 2px solid rgb(223, 211, 211);
+  margin-left: 10px;
+  font-size: 30px;
+  background-color: rgb(215, 45, 11);
+  
+}
+
+/* portfolio */
+
+.portfolio {
+  background-image: url(../images/restaurant\ background\ image.avif);
+  background-repeat: no-repeat;
+  background-image: cover;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  scroll-padding-top: 70px;
+  display: flex;
+}
+
+.navbar-para {
+  color: rgb(27, 27, 29);
+  font-size: 10px;
+  text-align: left;
+ width: 50%;
+  margin-left: 5px;
+  font-weight: lighter;
+  padding: 20px;
+}
+.image {
+
+ padding-left: 10%;
+ display: flex;
+  justify-content: center;  /* image center */
+  align-items: center;
+
+
+  
+}
+.image img {
+  margin-top: 80px;
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 100px;
+}
+
+.paragraph {
+  margin-top: 10px;
+  display: flex;
+}
+
+/* blog */
+
+.blog{
+    border: 2px solid black;
+    background-image: url(../images/restaurant\ background\ image.avif);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+  background-size: cover;
+  
+    
+}
+.head{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    
+  
+}
+.cont{
+    display: flex;
+    gap: 60px;
+    border: 2px solid rgb(70, 70, 69);
+    height: 450px;
+    width: 400px;
+    margin-left: 40px;
+   
+}
+.botton{
+  
+   background-color: rgb(241, 191, 191);
+   color: rgb(96, 155, 9);
+   height: 30px;
+   width: 80px;
+   font-weight: bolder;
+   
+
+}
+
+.box{
+ 
+    background-color: rgb(46, 40, 40);
+    text-align: center;
+  
+}
+.images{
+    height: 300px;
+    width: 400px;
+    
+}
+.header{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(246, 104, 16);
+}
+/* contact */
+
+.contact{
+  height: auto;
+  width: 100%;
+  background-image: url(../images/restaurant\ background\ image.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1px;
+  
+}
+.heading{
+  font-size: 50px;
+  
+  color: rgb(210, 199, 199);
+  padding: 20px;
+  
+}
+.contact-para{
+  font-size: 20px;
+  color: aliceblue;
+  margin-left: 20px;
+  
+
+}
+.form{
+  border: 2px solid black;
+  box-shadow: 3px;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 300px;
+}
+
+.btns{
+  padding: 5px;
+  margin-bottom: 40px;
+  height: 40px;
+  width: 80px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-image: url(../images/restaurant\ background\ image.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    margin-top: -15px;
+}
+    
+    
+@media (max-width:768px) {
+
+ .navbar-wrapper {
+
+  justify-content: center;
+  padding: 5px;
+  
+
+}
+
+.navbar-link {
+   gap: 10px;
+  }
+  h1 {
+  font-size: 30px;
+  color: rgb(235, 187, 187);
+  padding: 15px; 
+}
+.para {
+  color: white;
+  margin-bottom: 30px;
+  font-style: italic;
+  font-size: 20px;
+  
+  padding: 10px;
+  
+}
+.btn {
+  font-size: 20px;
+ }
+ .navbar-para {
+  color: aliceblue;
+  font-size: 5px;
+  text-align: left;
+ width: 50%;
+  margin-left: 5px;
+  font-weight: lighter;
+  padding: 30px;
+}
+.image img {
+
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 100px;
+  justify-content: center;
+}
+.paragraph {
+  margin-top: 5px;
+  text-align: left;
+  
+  font-size: 13px;
+  
+}
+.portfolio-head{
+  padding: 5px;
+}
+.head{
+   text-align: left;
+    font-size: 30px;
+    color: rgb(241, 227, 227);
+}
+.cont{
+    
+    gap: 20px;
+  
+    height: 200px;
+    width: 20px;
+    margin-left: 20px;
+   
+}
+.images{
+    height: 80px;
+    width: 80px;
+    box-sizing: border-box;
+    
+}
+.botton{
+  height: 20px;
+   width: 40px;
+   font-size: 10px;
+}
+.header{
+    font-size: 10px;
+    text-align: center;
+    color: rgb(233, 48, 138);
+   margin-top: 10px;
+}
+.box{
+ 
+    background-color: rgb(155, 148, 148);
+    text-align: center;
+  
+  
+}
+.heading{
+  font-size: 30px;
+  }
+  .contact-para{
+  font-size: 15px;
+  color: aliceblue;
+  }
+  .contact-head{
+    font-size: 30px;
+    color: black;
+    padding: -60px;
+  }
+
+  .form{
+  height: 30px;
+  width: 150px;
+}
+.btns{
+  height: 30px;
+  width: 70px;
+}
+.footer{
+    
+    
+    
+  
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 6px;
+    gap: 2px;
+}
+
+
+
+
+}

@@ -91,4 +91,50 @@ body{
     justify-content: space-around;
     margin-top: 20px;
     
+
+
 }
+
+@media (max-width:768px) {
+    .top-section{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .head1{
+        color: brown;
+        font-size: small;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .page{
+        width: 400px;
+        padding: 10px;
+    }
+    .left, .right{
+        width: 100%;
+        
+    }
+    .contain-section{
+            flex-direction: column;
+            gap: 10px;
+    }
+    .contain-left,.contain-right{
+        width: 100%;
+    }
+    .image{
+        height: auto;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    
+    
+}
+    
+        
+
+
+
+
+    

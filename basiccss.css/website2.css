@@ -195,3 +195,51 @@ img{
     height: 400px;
 }
 
+@media (max-width:768px) {
+    .navbar{
+    position: sticky;
+    display: flex;
+    top:0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-wapper{
+  
+    background: rgb(115, 76, 37);
+    font-size: small;   
+}
+.navbar-about-header{
+    font-size: small;
+}
+.home-btn2{
+    background: brown;
+    color: aliceblue;
+}
+.navbar-service{
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.navbar-card{
+       width: 200px;
+    height: 300px;
+}
+.img2{
+    /* border: 2px solid rgb(219, 151, 151); */
+    height: 50px;
+    width:50px;
+    
+}
+.about-cont-card{
+    color: rgb(169, 202, 231);
+    font-size:medium;
+    text-align: center;
+    width: 50%;
+}
+.about-btn{
+    margin-top: 40px;
+    width: 100px;
+    height: 30px;
+    background-image: linear-gradient(red blue);
+    border: 2px solid;
+}
+}

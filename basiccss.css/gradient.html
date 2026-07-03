@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+         .container{
+            display: grid;
+            background-color: aqua;
+            grid-template-columns: 200px 100px 200px;
+            grid-template-rows: 80px 40px 70px;
+        }
+        .box{
+            background-color: rgb(238, 77, 208);
+            border: 2px solid rgb(132, 158, 132);
+        }
+
+        .container1{
+            display: grid;
+            background-color: yellow;
+            height: 400px;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-rows: repeat(4,1fr);
+            gap: 10px;
+        }
+        .box1{
+            background-color: rgb(156, 68, 239);
+            color: brown;
+            border: 2px solid gray;
+            
+        }
+        .container2{
+            display: grid;
+            height: 400px;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 30px 1fr 30px;
+            text-align: center;
+        }
+        .box2{
+            background-color: aquamarine;
+            color: blue;
+            border: 2px solid red;
+        }
+        #header{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+        #footer{
+            grid-column: 1/5
+            
+            ;
+        }
+        #content{
+            grid-column-start: 2;
+            grid-column-end: 4;
+        }
+    </style>
+</head>
+<body>
+   <h1>Grid</h1>
+   <div class="container">
+    <div class="box"> Box1</div>
+    <div  class="box">Box2</div>
+    <div  class="box">Box3</div>
+    <div class="box">Box4</div>
+    <div  class="box">Box5</div>
+    <div  class="box">Box6</div>
+    <div  class="box">Box7</div>
+    <div  class="box">Box8</div>
+
+   </div>
+
+
+    <h1>Repeat and fractional unit</h1>
+   <div class="container1">
+    <div class="box1"> Box1</div>
+    <div  class="box1">Box2</div>
+    <div  class="box1">Box3</div>
+    <div class="box1">Box4</div>
+    <div  class="box1">Box5</div>
+    <div  class="box1">Box6</div>
+    <div  class="box1">Box7</div>
+    <div  class="box1">Box8</div>
+    </div>
+
+
+    <h1>Grid coloumn Starts and ends/Grid row starts and ends</h1>
+   <div class="container2">
+    <div class="box2" id="header"> Header</div>
+    <div  class="box2" id="menu">Menu</div>
+    <div  class="box2" id="content">content</div>
+    <div class="box2" id="sidebar">Sidebar</div>
+    <div  class="box2" id="footer">Footer</div>
+    </div>
+    
+</body>
+</html>
